@@ -1,0 +1,111 @@
+{
+  "gameobjects": {
+    "player": {
+      "name": "Player",
+      "initial_position": [
+        0.0,
+        0.0
+      ],
+      "initial_velocity": [
+        0.0,
+        0.0
+      ],
+      "components": {
+        "physics": {
+          "accl": [
+            0.0,
+            0.0
+          ],
+          "force": [
+            0.0,
+            0.0
+          ],
+          "mass": 90.0,
+          "kDrag": 0.5
+        },
+        "collision": {
+          "extent": [
+            50.0,
+            50.0
+          ],
+          "center": [
+            0.0,
+            50.0
+          ]
+        }
+      }
+    },
+    "monsters": [
+      {
+        "name": "monster1",
+        "initial_position": [
+          100.0,
+          0.0
+        ],
+        "initial_velocity": [
+          0.0,
+          0.0
+        ],
+        "components": {
+          "physics": {
+            "accl": [
+              0.0,
+              0.0
+            ],
+            "force": [
+              0.0,
+              0.0
+            ],
+            "mass": 90.0,
+            "kDrag": 0.5
+          },
+          "collision": {
+            "extent": [
+              30.0,
+              30.0
+            ],
+            "center": [
+              0.0,
+              15.0
+            ]
+          }
+        }
+      },
+      {
+        "name": "monster2",
+        "initial_position": [
+          150.0,
+          -200.0
+        ],
+        "initial_velocity": [
+          0.0,
+          0.0
+        ],
+        "components": {
+          "physics": {
+            "accl": [
+              0.0,
+              0.0
+            ],
+            "force": [
+              0.0,
+              0.0
+            ],
+            "mass": 90.0,
+            "kDrag": 0.5
+          },
+          "collision": {
+            "extent": [
+              30.0,
+              30.0
+            ],
+            "center": [
+              0.0,
+              15.0
+            ]
+          }
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,186 @@
+{
+  "gameobjects": {
+    "player": {
+      "name": "Player",
+      "tag": "player",
+      "initial_position": [
+        -340.0,
+        0.0
+      ],
+      "initial_velocity": [
+        0.0,
+        0.0
+      ],
+      "components": {
+        "physics": {
+          "accl": [
+            0.0,
+            0.0
+          ],
+          "force": [
+            0.0,
+            0.0
+          ],
+          "mass": 1.0,
+          "kDrag": 0.001
+        },
+        "collision": {
+          "extent": [
+            20.0,
+            54.0
+          ],
+          "center": [
+            0.0,
+            54.0
+          ]
+        }
+      }
+    },
+    "Goal": {
+      "name": "finish",
+      "tag": "goal",
+      "initial_position": [
+        300.0,
+        0.0
+      ],
+      "initial_velocity": [
+        0.0,
+        0.0
+      ],
+      "components": {
+        "physics": {
+          "accl": [
+            0.0,
+            0.0
+          ],
+          "force": [
+            0.0,
+            0.0
+          ],
+          "mass": 1.0,
+          "kDrag": 0.001
+        },
+        "collision": {
+          "extent": [
+            30.0,
+            60.0
+          ],
+          "center": [
+            0.0,
+            60.0
+          ]
+        }
+      }
+    },
+    "monsters": [
+      {
+        "name": "monster1",
+        "tag": "enemy",
+        "initial_position": [
+          -150.0,
+          50.0
+        ],
+        "initial_velocity": [
+          0.0,
+          0.25
+        ],
+        "components": {
+          "physics": {
+            "accl": [
+              0.0,
+              0.0
+            ],
+            "force": [
+              0.0,
+              0.0
+            ],
+            "mass": 1.0,
+            "kDrag": 0.001
+          },
+          "collision": {
+            "extent": [
+              8.0,
+              8.0
+            ],
+            "center": [
+              0.0,
+              8.0
+            ]
+          }
+        }
+      },
+      {
+        "name": "monster2",
+        "tag": "enemy",
+        "initial_position": [
+          20.0,
+          150.0
+        ],
+        "initial_velocity": [
+          0.0,
+          0.25
+        ],
+        "components": {
+          "physics": {
+            "accl": [
+              0.0,
+              0.0
+            ],
+            "force": [
+              0.0,
+              0.0
+            ],
+            "mass": 1.0,
+            "kDrag": 0.001
+          },
+          "collision": {
+            "extent": [
+              8.0,
+              8.0
+            ],
+            "center": [
+              0.0,
+              8.0
+            ]
+          }
+        }
+      },
+      {
+        "name": "monster3",
+        "tag": "enemy",
+        "initial_position": [
+          180.0,
+          -280.0
+        ],
+        "initial_velocity": [
+          0.0,
+          0.25
+        ],
+        "components": {
+          "physics": {
+            "accl": [
+              0.0,
+              0.0
+            ],
+            "force": [
+              0.0,
+              0.0
+            ],
+            "mass": 1.0,
+            "kDrag": 0.001
+          },
+          "collision": {
+            "extent": [
+              8.0,
+              8.0
+            ],
+            "center": [
+              0.0,
+              8.0
+            ]
+          }
+        }
+      }
+    ]
+  }
+}
